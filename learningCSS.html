@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        a:hover{
+            background-color: #ffff;
+        }
+        /* a:visited{ 
+            color:black;
+        } */
+        a:link{
+            color: green;
+        }
+        input:focus{
+            background-color: lightskyblue;
+            width: 35%;
+            padding: 12px 20px;
+            margin: 5px 2;
+            box-sizing: border-box;
+        }
+
+        li:nth-child(2n+1){ 
+            background-color: green;
+            border: dotted;
+        } 
+
+        li:first-child{
+            color: red;
+        }
+        
+        li:last-child{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+     <a href="https://www.google.com">Google</a><br>
+     
+     Name:<input type="text" placeholder="name"><br>
+     password:<input type="password" placeholder="password">
+
+     <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+        <li>six</li>
+        <li>seven</li>
+        <li>eight</li>
+        <li>nine</li>
+        <li style="color:blueviolet">ten</li>
+     </ul>
+    
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantics</title>
+    <style>
+       * {
+        background-color: #4d4d4d;
+        
+    }
+    p{
+        background-color: #d1ea76;
+    }
+    .warning{
+        background-color: coral;
+        color:aqua;
+    }
+    #danger{
+        background-color: aquamarine;
+        color:brown;
+    }
+    
+    li.bg-black.text-white{
+        background-color: #120E43;
+        color: #ffffff;
+    }
+
+    span, li {
+        background-color: burlywood;
+    }
+
+    div ul li {
+        background-color: #5da3fa;
+    }
+
+    div > li {
+        background-color: #66ad47;
+    }
+
+    .sibling + p {
+        background-color: #6A1B4D;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <a class="logo" href="https://interactive-examples.mdn.mozilla.net/media/examples/mdn-info2.png">Ineuron</a>
+    </header>
+    <nav> class="online">
+        <ol>
+            <li  class="classes">
+                <a href="#">html</a>
+            </li>
+            <li class="recording sessions">
+                <a href="#">css</a>
+            </li>
+        </ol>
+    </nav>
+    <article class="Learning semantics">
+        <h1 class="warning">Practising semantics</h1>
+        <article class="NO.of articles">
+            <h2>practice</h2>
+            <p>search and apply</p>
+        </article>
+        <article class="Learning semantics2">
+            <h1>Practising some semantics</h1>
+            <article class="NO.of blogs">
+                <h2>practice</h2>
+                <p>research</p>
+            </article>
+
+            <div>
+                <li>Be-unique</li>
+                <ul>
+                    <li>highlight my skills</li>
+                    <li>highlight my creativity</li>
+                </ul>
+            </div>
+
+            <aside>
+                <p style="color:blue">The mentors are hiteshsir and anuragsir</p>
+            </aside>
+            <details>
+                <summary>Details</summary>
+                Refer the following paragraph 
+            </details><br>
+        <main>
+        Learning many things with hands on experience apart of Ineuron support
+
+        <section>
+            <p>Test 1</p>
+            <p class="sibling">Test 2</p>
+            <p>Test 3</p>
+            <p>Test 4</p>
+
+        </section>
+        <p id="danger">
+            since the last few weeks there are many file snippets madeup by me by learning recorded sessions of ineuron 
+            some of the elements which were google and some of eliments take help with mdn docs
+            Apart of webdevelopment i made an article about tags in earlier.
+            later on some assignments has done yet but not posted in assignments blog
+            I will post all of that in a single shot
+        </p>
+    </main>
+    
+</body>
+</html>

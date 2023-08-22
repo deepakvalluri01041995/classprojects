@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .container{
+            flex-direction: row-reverse;
+            display: flex;
+            height: 500px;
+            border: 1px solid #B4161B;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .item{
+            border: 2px solid black;
+            background-color: #51E1ED;
+            border-radius: 5px;
+            margin: 7px;
+            height: 60px;
+            width: 50px;         
+        }
+        #flex{
+            flex-grow: 3;
+            align-self: flex-start; 
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">One</div>
+        <div class="item" id="flex">Two</div>
+        <div class="item">Three</div>
+        <div class="item" id="flex">Four</div>
+    </div>
+    
+</body>
+</html>

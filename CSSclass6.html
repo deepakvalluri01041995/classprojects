@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <style>
+        div + p {
+            color: red;
+        }
+
+        div , p {
+            color: blue;
+        }
+
+        .warning::before{
+            content: "Danger";
+            color: red;
+            font-size: 50px;
+        }
+
+        warning::after{
+            content: U+2620;
+        }
+
+        #caa{
+            color: #FF3C83;
+        }
+
+        .quote::after{
+            content:"-Deepak";
+            color: #FF9347;
+            font-size: 25px;
+        }
+
+        a:hover{
+            background-color: yellowgreen;
+            color: #00AC61;   
+        }
+
+        a:visited{
+            color: #9424F0;
+        }
+
+        p:hover{
+            color:black;
+        }
+
+        input[type=text]:focus{
+            color:  #D31A50;
+            background-color: #E1A2B8;
+        }
+    </style>
+    <title>HTML and CSS 2</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, error.</p>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <div class="warning">
+        <p id="caa">please make sure before proceding anything</p>
+        <p id="caa">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, officiis.</p>
+    </div>
+    <div class="quote">
+        <p>I make everything perfect</p>
+    </div>
+    <a href="https://www.google.com/">Hyper + link</a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, facere!</p>
+
+    Name<input type="text">
+    Email<input type="email">
+</body>
+</html>
